@@ -1,0 +1,22 @@
+/* div{
+    background-color: chocolate;
+    width: 100vw;
+    height: 100vh;
+
+} */
+ li{
+    font-size: 4rem;
+ }
+ .d{
+    color: rgb(252, 90, 125);
+ }
+#p {
+    background-color: darkred;
+    height: 200px;
+    width: 200px
+}
+#c{
+    background-color: deeppink;
+    height: 80%;
+    width: 80%;
+}

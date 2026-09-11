@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+#head{
+    height: 150px;
+    background-color: black;
+    
+}
+.title{
+    color: aliceblue;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+#cards{
+    position: relative;
+    left: 50px;
+    top: 50px ;
+}
+
+.subCard div {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 50px 50px;
+    
+}
+h2{
+    margin: 30px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+button{
+    height: 30px;
+    width:70px;
+    background-color: rgb(24, 143, 0);
+}
+
+#d1{
+    
+    border: 3px solid brown;
+}
+#d2{
+    
+    border: 3px solid rgb(42, 83, 165);
+    
+}
+#d3{
+    border: 3px solid rgb(165, 89, 42);
+    
+}
+#d4{
+    
+    border: 3px solid rgb(165, 42, 89);
+   
+}
+#d5{
+    display: block;
+    margin: 50px auto;
+    border: 3px solid rgb(42, 114, 165);
+    position: relative;
+    
+}
+
+ 
+#img img {
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    position: absolute;
+    top: 13%;
+    left: 33%;
+
+}
+
+#na{
+    position: absolute;
+    top: 39%;
+    left: 25%;
+}
+#g1{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(24, 143, 0);
+    border-radius: 20px;
+    position: absolute;
+    top : 70%;
+    left : 35%
+}
