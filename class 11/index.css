@@ -1,0 +1,44 @@
+body{
+    background-color: #000000;
+}
+#main{
+    position: relative;
+    left :8%;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    margin: 50px;
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+#card1{
+    background-color: #cdd2fc;
+}
+#card2{
+    background-color: #fccdf2;
+}
+#card3{
+    background-color: #cdd6fc;
+}
+div img{
+    height: 150px;
+    margin: 20px auto;
+    position: relative;
+    left: 5%;
+}
+h2{
+    text-align: center;
+}
+button{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    position: absolute;
+    left : 35%;
+}
