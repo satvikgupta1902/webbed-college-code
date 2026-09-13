@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::placeholder{
+    color: rgb(175, 177, 179);
+}
+#main{
+    margin: 0px auto;
+    width :60%;
+}
+#header{
+    background-color: rgb(0, 0, 42);
+    color: azure;
+    height: 70px;
+    text-align: center;
+}
+#logo{
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    top :20%;  
+}
+#head2{
+    color: rgb(49, 110, 222);
+}
+nav {
+    position :relative;
+    top :7px;
+    display: inline-block;
+    width: 43%;
+    margin:2%; 
+}
+nav span{
+    margin: 4% ;
+}
+#header div{
+    display: inline-block;
+    height: 45px;
+    width: 130px;
+    position :relative;
+    top :-5px;
+    margin: 0px 5%;
+    background: rgb(59, 56, 248);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+div span{
+    position: relative;
+    top: 25%;
+}
+#mid{
+    margin: 50px auto;
+    text-align: center;
+}
+#midfoot{
+    color: rgb(45, 42, 255);
+    font-size: 20px;
+    height: 30px;
+}
+#midhead{
+    font-size: 55px;
+    font-weight: 1000;
+    height: 80px;
+}
+#midbotm{
+    color: rgb(76, 91, 118);
+    font-size: 28px;
+}
+.block{
+    display: inline-block;
+    border: 1.5px solid rgb(230, 234, 236);
+    border-radius: 20px;
+    margin: 0 1.5% 2%;
+    width: 40%;
+    padding: 3%;
+}
+#topblock block{
+    height: 500px;
+}
+#block3{
+    height: 350px;
+}
+h2{
+    color: rgb(45, 42, 255);
+}
+sup {
+    color: crimson;
+}
+.inbox{
+    margin: 2% 0 0 0;
+    width : 94%;
+    height : 30px;
+    padding: 1% 1% 1% 4% ;
+    border: 2px solid rgb(230, 234, 236);
+    border-radius:7px ;
+    font-size: 18px;
+}
+.rdsec {
+    display: inline;
+    margin: 0 5% 0 0;
+}
+.cbox{
+    height: 20px;
+    width: 20px;
+}
+.clabel{
+    display :inline-block;
+    position: relative;
+    margin: 0 0 0 2%;
+    top:-3px;
+}
+#checklist{
+    margin: 1% 0 5% 0 ;
+}
+.checkbox{
+    margin: 3% 0 0 0;
+    height: 20px;
+    width: 20px;
+}
+#select{
+    height: 35px;
+}
+#dumpstuff{
+    height: 120px;
+    width: 94%;
+}
+a{
+    color:rgb(45, 42, 255);
+}
+#sumbit{
+    height: 70px;
+    width : 94%;
+    border-radius:20px;
+    background:rgb(45, 42, 255);
+    text-align: center;
+    color: beige;
+    font-size: 28px ;
+}

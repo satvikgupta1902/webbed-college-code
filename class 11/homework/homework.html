@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+
+            <h1 id="logo">
+                <span id="head1">Tech</span><span id="head2">Conf</span>
+            </h1>
+            <nav>
+                <span>Home</span>
+                <span>Speakers</span>
+                <span>Schedule</span>
+                <span>Register</span>
+            </nav>
+            <div><span>Register Now</span></div>
+
+        </div>
+
+        <div id="mid">
+            <div id="midfoot">REGISTER NOW</div>
+            <h1 id="midhead">Conference Registration </h1>
+            <div id="midbotm">Fill in the details to secure your spot at Tech conference 2026</div>
+        </div>
+
+        <div id="form">
+            <div id = "topblock">
+                <div id="block1" class = "block">
+                    <h2>Personal Information</h2>
+                    <br>
+                    <div>
+                        <h3>Full Name <sup> *</sup></h3> 
+                        <input class="inbox" type="text" placeholder="Enter your full name">
+                    </div>
+                    <br>
+                    <div>
+                        <h3>Email <sup> *</sup></h3> 
+                        <input  class="inbox"type="email" placeholder="example@email.com">
+                    </div>
+                    <br>
+                    <div>
+                        <h3>Phone <sup> *</sup></h3> 
+                        <input  type="number" class="inbox" placeholder="+91 9999999999">
+                    </div>
+                    <br>
+                    <div>
+                        <h3>Date of Birth <sup> *</sup></h3> 
+                        <input class="inbox" type="date"placeholder ="99/99/9999"><br>
+                    </div>
+                    <br>
+                    <div>
+                        <h3>Gender <sup> *</sup></h3><br> 
+                        <span class="rdsec"><input class="cbox" type="radio" name="Gender"> <p class="clabel"> Male</p></span>
+                        <span class="rdsec"><input class="cbox" type="radio" name="Gender"> <p class="clabel"> Female</p></span>
+                        <span class="rdsec"><input class="cbox" type="radio" name="Gender"> <p class="clabel"> Other</p></span>
+                    </div>
+                </div>
+                <div id="block2" class="block" class="topbck">
+                    <h2>Conference Preferance</h2>
+                    <br>
+                    <div>
+                        <h3>Ticket Type <sup> *</sup></h3><br>
+                        <div class="rdsec" ><input type="radio" name = "ticket" class="cbox"> <p class = "clabel">Student</p></div>
+                        <div class="rdsec" ><input type="radio" name = "ticket" class="cbox"> <p class = "clabel">Professional</p></div>
+                        <div class="rdsec" ><input type="radio" name = "ticket" class="cbox"> <p class = "clabel">Vip</p></div>
+                    </div>
+                    <br>
+                    <div>
+                        <h3>Area of Interest<sup> *</sup></h3>
+                        <div id = "checklist">
+                            <div><input type="checkbox" class = "checkbox" class="cbox"><p class ="clabel">AI</p></div>
+                            <div><input type="checkbox" class = "checkbox" class="cbox"><p class ="clabel">Web Development</p></div>
+                            <div><input type="checkbox" class = "checkbox" class="cbox"><p class ="clabel">Cloud</p></div>
+                            <div><input type="checkbox" class = "checkbox" class="cbox"><p class ="clabel">Cyber Security</p></div>
+                            <div><input type="checkbox" class = "checkbox" class="cbox"><p class ="clabel">Data Science</p></div>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h2>Workshop Selection</h2>
+                        <br>
+                        <div>
+                            <h3>Select Workshop<sup> *</sup></h3>
+                            <select class="inbox" id ="select">
+                                <option value="">React Advanced Patterns</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id = " bottomblock">
+                <div id="block3" class="block">
+                    <h2>Account Information</h2>
+                    <br>
+                    <div>
+                        <h3>Username<sup> *</sup></h3>
+                        <input type="text" class="inbox" placeholder="Choose a Username">
+                    </div>
+                    <br>
+                    <div>
+                        <h3>Password<sup> *</sup></h3>
+                        <input type="password" class="inbox" placeholder="*************">
+                    </div>
+                    <br>
+                    <div>
+                        <h3>Confirm Password<sup> *</sup></h3>
+                        <input type="password" class="inbox" placeholder="*************" >
+                    </div>
+                </div>
+                <div id = "block3" class="block">
+                    <h2>Addition Information</h2>
+                    <br>
+                    <div>
+                        <h3>Why do you want to attend this conference?</h3>
+                        <br>
+                        <textarea id="dumpstuff"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="checkbox">
+                        <p class="clabel">I agree to the <a href="">terms and conditions</a><sup> *</sup></p>
+                    </div>
+                    <br>
+                    <div id = "sumbit"><span>Sumbit Registration</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
