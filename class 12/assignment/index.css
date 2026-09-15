@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    background-color: black ;
+    height :50px;
+    color: white;
+    position: sticky ;
+    top :0;
+}
+#head h1 { 
+    display: inline-block;
+    margin: 0 50px;
+
+}
+#nav{
+    display: inline-block;
+}
+#nav span{
+    margin :0 30px;
+}
+#body{
+    margin :100px 0 ;
+}
+img {
+    display: inline-block;
+    width: 350px;    
+}
+#card{
+    width: 350px;
+    height: 500px;
+
+    border-radius: 20px;
+    overflow: hidden;
+}
+#cardcontent{
+    text-align: left;
+    margin: 30px;
+}
+#cardcontent p {
+    margin: 5px 0;
+}
+#up{
+    position: relative;
+}
+#up div{
+    position: absolute;
+}
+#sale{
+    top: 10px;
+    left: 10px;
+}
+#circle{
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    background-color: #f7f6f6;
+    border-radius: 50%;
+}
+#price{
+    bottom: 10px;
+    left: 10px;
+    background-color: #000000;
+}
+
+.more{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+#button{
+    border: blurviolet;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
