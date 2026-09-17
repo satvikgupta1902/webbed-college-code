@@ -14,24 +14,20 @@
     background: #000;
     color: white;
     font-size: larger;
-    
+    text-align: center;
     align-items: center;
 }
 #parent1 div{
-    /* height: 50px; */
-    width: 100px;
-    text-align: center;
- /* background: #462828; */
-    
+    width: 100px; 
+ /* background: #462828; */  
+}
 #parent2 div{
-    height: 50px;
     width: 50px;
 }
 #parent1{
  width: 40%;
- 
 }
-}
+
 #parent2 {
     width :40%;
     display: flex;
