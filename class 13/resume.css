@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+#body{
+    width: 55%;
+    margin: 0 auto;
+}
+.block{
+    display :inline-block;
+    margin: 0 2.5%;
+    padding: 20px;
+    
+}
+#left {
+    height :100rem;
+    width:30%;
+    background-color: rgb(255, 207, 134);   
+}
+#right{
+    height :100rem;
+    width:50%;
+    background-color: rgb(255, 207, 134);
+
+}
+img{
+    border-radius: 50%;
+    height :200px;
+    width :200px;
+    margin: 10px;
+}
+i{
+    font-size: larger;
+    margin-right:10px ;
+}
+.name{
+    font-size: 60px;
+}
+#right h2 {
+    display: inline-block;
+} 
