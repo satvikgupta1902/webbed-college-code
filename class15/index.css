@@ -1,0 +1,26 @@
+#parent{
+    height:500px;
+    width:1000px;
+    background-color: rgb(190, 135, 51);
+    display: flex;
+    justify-content: space-evenly;
+}
+.main{
+    justify-content: space-evenly;
+    width: 45%;
+    height: 90%;
+    /* background-color: black; */
+}
+
+#headtab{
+    height: 20%;
+    background-color: aqua;
+}
+#lltop{
+    height: 45%;
+    background-color: aqua;
+}
+#llbot{
+    height: 45%;
+    background-color: aqua;
+}
