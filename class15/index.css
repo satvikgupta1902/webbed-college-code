@@ -18,7 +18,8 @@
 }
 #lltop{
     height: 45%;
-    background-color: aqua;
+    width: 100vh;
+    background-color: rgb(61, 147, 147);
 }
 #llbot{
     height: 45%;

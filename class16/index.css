@@ -1,0 +1,31 @@
+#parent {
+    height: 800px;
+    display: flex;
+    border: 3px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center; */
+    /* align-items: end; */
+    /* flex-wrap: wrap; */
+}
+#parent div{
+    height: 200px;
+    width: 200px;
+}
+#one{
+    background-color: brown;
+
+    /* flex-grow: 4; */
+}
+#two{
+    background-color:blueviolet;
+    /* flex-grow: 1; */
+}
+#thr{
+    background-color:chocolate;
+    flex-shrink: 1;
+}
+#fou{
+    background-color:darkmagenta;
+    flex-shrink: 3;
+}
