@@ -1,0 +1,58 @@
+#parent {
+    height: 800px;
+    display: flex;
+    border: 3px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center; */
+    /* align-items: end; */
+    /* flex-wrap: wrap; */
+}
+#parent div{
+    height: 200px;
+    width: 200px;
+}
+#one{
+    background-color: brown;
+    transition-duration :3s;
+
+    transition-timing-function: ease-out;
+
+    /* flex-grow: 4; */
+}
+#parent:hover .one{
+    background-color: blueviolet;
+    border-radius:50%;
+    margin: 600px 0;
+}
+#two{
+    background-color:blueviolet;
+    /* flex-grow: 1; */
+}
+#thr{
+    background-color:chocolate;
+    /* flex-shrink: 1; */
+}
+#fou{
+    background-color:darkmagenta;
+    /* flex-shrink: 3; */
+}
+h2{
+    transition:2s;
+}
+h2:hover{
+    /* transform:translate(300px,200px); */
+    /* transform: scale(2);
+     */
+     transform: rotate(180deg);
+
+}
+#i{
+    height: 200px;
+    width: 200px;   
+    background-color:red;
+}
+#i:hover{
+    transform: rotate(9508539485deg);
+    transition: 10s;
+}

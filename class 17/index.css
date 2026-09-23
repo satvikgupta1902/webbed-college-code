@@ -1,0 +1,30 @@
+body{
+    perspective: 900px;
+}
+#main{
+    height: 400px;
+    width :300px;
+    /* border : 2px solid black; */
+    margin: 50px auto;
+    position: relative;
+    transition: 3s;
+    transform-style: preserve-3d;
+}
+#main:hover{
+    transform: rotateY(180deg);
+}
+#main div{
+    height: 50%;
+    width: 100%;
+    position:absolute;
+    color: snow;
+}
+#first {
+    background-color: blueviolet;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+#second{
+    background-color: rgb(44, 193, 51);
+    transform: rotateY(180deg);
+}
