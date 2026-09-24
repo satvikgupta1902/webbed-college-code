@@ -2,8 +2,8 @@ body{
     perspective: 900px;
 }
 #main{
-    height: 400px;
-    width :300px;
+    height: 800px;
+    width :600px;
     /* border : 2px solid black; */
     margin: 50px auto;
     position: relative;
@@ -19,10 +19,15 @@ body{
     position:absolute;
     color: snow;
 }
+img{
+    height: 100%;
+    width: 100%;
+}
 #first {
     background-color: blueviolet;
     z-index: 1;
     backface-visibility: hidden;
+   
 }
 #second{
     background-color: rgb(44, 193, 51);
