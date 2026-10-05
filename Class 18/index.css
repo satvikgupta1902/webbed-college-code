@@ -1,0 +1,26 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    background: linear-gradient(red, blue);
+    margin: 50px auto;
+    animation-name: idk;
+    animation-duration: 900s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+
+    animation-iteration-count: infinite;
+}
+
+@keyframes idk{
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(85vh) rotate(360deg);
+
+    }
+}
