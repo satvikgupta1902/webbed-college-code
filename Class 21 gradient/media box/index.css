@@ -1,0 +1,27 @@
+#nav{
+    background-color: red;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width :100%;
+
+}
+#nav>div{
+    margin :40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#d2d{display: flex;
+    justify-content: space-between;
+
+
+
+}
+@media screen and /*(max-width :400px)*/ (max-width:400px){
+    div {
+        background-color: green;
+        border-radius: 100%;
+    };
+}
