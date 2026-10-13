@@ -1,0 +1,38 @@
+#gp{
+    display: grid;
+    width: max-content;
+    grid-template-columns: repeat(2,1500px);
+    animation: anime 3s linear infinite;
+}
+#gp>div{
+    display: grid;
+    grid-template-columns: repeat(6,250px)
+    
+}
+#gp>div>div{
+    width: 200px;
+    height : 200px;
+    border: 2px solid black;
+    margin: 10px 0;
+    background: #000;
+    border-radius: 10px;
+    
+}
+.g1{
+    /* background-color: aqua; */
+}
+.g2{
+    /* background-color: rgb(6, 67, 67); */
+}
+#home{
+    margin:0 auto;
+    width :1500px;
+    border: 2px solid black ;
+    overflow: hidden;
+}
+@keyframes anime{
+0%{}
+100%{
+    transform: translateX(-50%);
+}
+}
