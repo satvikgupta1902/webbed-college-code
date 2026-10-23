@@ -18,8 +18,7 @@ console.log(5=="5");
 console.log("5"-5);
 
 console.log(undefined+undefined)
-console.log("hello"-5
-)
+console.log("hello"-5)
 
 
 
