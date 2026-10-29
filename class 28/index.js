@@ -32,6 +32,10 @@ for(let j =0;i>=j;j++){
 console.log(b)}
 }
 se(6)
+var print =()=>{
+    console.log("Hellow World")
+}
+print ()
 
 
 
