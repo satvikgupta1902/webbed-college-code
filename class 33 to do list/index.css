@@ -1,0 +1,24 @@
+h1{
+    font-size:xx-large;
+}
+body{
+    background-color: rgb(190, 194, 202);
+}
+#main{
+    height: 80vh;
+    width : 60%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+input {
+    width :90%;
+    height :30px;
+    margin: 0 5%;
+}
+#mainb{
+    display: block;
+    margin :20px 5%;
+}
+h2{
+    
+}
