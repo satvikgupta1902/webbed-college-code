@@ -1,0 +1,49 @@
+body{
+background: #000;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 700px;
+    width: 500px;
+    margin: 100px auto;
+
+    
+}
+.box{
+    border: transparent;
+    border-radius: 50%;
+    /* height: 30px;
+    width:50px; */
+    margin: 5px;
+    font-size: xx-large;
+
+
+
+}
+.white-bt{
+    background-color: antiquewhite;
+}
+.grey-btn{
+    background: grey;
+    color: antiquewhite;
+}
+.ylw-btn{
+    background: rgb(255, 196, 1);
+    color: aliceblue;
+}
+#input{
+    grid-column: 1/4;
+    background: #000;
+    border: transparent;
+    color: antiquewhite;
+    font-size: xxx-large;
+    text-align: end;
+    
+}
+#zero{
+    grid-column: 1/3;
+}
+#back {
+    background-color: transparent;
+}
